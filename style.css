@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Fahkwang');
-
+@import url('https://fonts.googleapis.com/css?family=Acme');
 html{
 background-color: #0e0c0a;
 
-
+box-sizing: border-box;
 }
 h1{
     margin-left: 30%;
@@ -18,7 +18,23 @@ text-shadow: 9px 5px rgb(243, 239, 239);
 
 }
 
+.main{
+
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    color: #fafcf5;
+    border: 2px solid #fafcf5;  
+    text-align: center;
+    margin-top: 30px;
+
+   
+}
 h1:hover{
+  
 background-color: white;
 color: black;
 text-shadow: 9px 5px white;
@@ -34,11 +50,29 @@ a{
     
 }
 
+.list {
+   
+    display: flex;
+    
+    align-content: stretch;
+        flex-wrap: wrap;
+
+}
+.list p{width: 50%;
+}
+
 a:hover{
 background-color: #9da89b;
 }
 
-img{padding: 2px;
-    width: 30%;
+img{
+    margin-top: 20px;
+    padding: 2px;
+    width: 90%;
     border: 2px solid #fafcf5;
+}
+
+p{
+
+    text-align: center;
 }
