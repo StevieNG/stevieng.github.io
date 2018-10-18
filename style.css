@@ -6,33 +6,39 @@ background-color: #0e0c0a;
 
 }
 h1{
+    margin-left: 30%;
+    margin-right: 30%;
 text-align: center;
 
 font-family: 'Anton', sans-serif;
 font-size: 75px;
 color: #010201;
 text-decoration: underline;
-text-shadow: 10px 2px rgb(243, 239, 239);
+text-shadow: 9px 5px rgb(243, 239, 239);
+
+}
+
+h1:hover{
+background-color: white;
+color: black;
+text-shadow: 9px 5px white;
+
 
 }
 
 a{
     font-family: 'Fahkwang', sans-serif;
-    color: rgb(111, 111, 153);
+    color: rgb(253, 255, 245);
     text-decoration: none;
     text-transform: uppercase;
     
 }
 
 a:hover{
-
-background-color: #96bb90;
-
+background-color: #9da89b;
 }
-img:hover{
-    background-color: initial;
-}
+
 img{padding: 2px;
     width: 30%;
-    border: 2px solid black;
+    border: 2px solid #fafcf5;
 }
