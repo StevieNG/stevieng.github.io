@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fahkwang');
+
+html{
+background-color: #0e0c0a;
+
+
+}
+h1{
+text-align: center;
+
+font-family: 'Anton', sans-serif;
+font-size: 75px;
+color: #010201;
+text-decoration: underline;
+text-shadow: 10px 2px rgb(243, 239, 239);
+
+}
+
+a{
+    font-family: 'Fahkwang', sans-serif;
+    color: rgb(111, 111, 153);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+a:hover{
+
+background-color: #96bb90;
+
+}
+img:hover{
+    background-color: initial;
+}
+img{padding: 2px;
+    width: 30%;
+    border: 2px solid black;
+}
