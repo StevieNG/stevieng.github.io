@@ -52,6 +52,25 @@ h2{
 
    
 }
+/* 
+.contactMe{
+    padding: 0px 50%;
+    display: flex; 
+    align-content: left;
+        flex-wrap: wrap;
+}
+.contactMe p{
+    font-size: 1px;
+color: black;
+
+}
+
+.contactMe:hover p{
+
+    font-size: 10px;
+    color: white;
+
+} */
 
 h2:hover{
     animation: rainbow 5s infinite both;
@@ -73,7 +92,7 @@ a{
         flex-wrap: wrap;
 
 }
-.list p{width: 33.3333%;
+.list p{width: 33.33333%;
 }
 
 a:hover{
