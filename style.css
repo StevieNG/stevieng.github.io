@@ -6,6 +6,7 @@ background-color: #0e0c0a;
 box-sizing: border-box;
 }
 h1{
+    padding: 10px 10px;
     margin-left: 35%;
     margin-right: 35%;
 text-align: center;
@@ -18,14 +19,20 @@ text-shadow: 9px 5px rgb(243, 239, 239);
 
 }
 h1:hover{
-  
-    background-color: white;
-    border-radius: 20px;
+   
+    background-color: rgb(63, 62, 62);
+    border: 1px solid rgb(66, 61, 61);
+    border-radius: 5px;
     color: black;
-    text-shadow: 9px 5px white;
-    transition: background 3s, transform 2s 1s ease-out ;
+    text-shadow: 9px 5px rgb(140, 245, 2);
+    transform: skewX(-25deg);
+    /* box-shadow: 40px 10px limegreen; */
+
+    box-shadow: 20px 20px 20px rgb(140, 245, 2);
+    transition: background 2s, transform 5s 0.5s ease-out ;
     cursor: alias;
-    animation: rainbow 5s infinite both;
+    
+
 
     }
 .main{
@@ -46,6 +53,10 @@ h2{
    
 }
 
+h2:hover{
+    animation: rainbow 5s infinite both;
+
+}
 
 a{
     font-family: 'Fahkwang', sans-serif;
@@ -104,12 +115,14 @@ color: #fafcf5;
 
 
     @keyframes rainbow {
-        0%{color: rgb(131, 62, 62)}
-        14%{color:  rgb(121, 85, 19)}
-        28%{color: rgb(114, 114, 25)}
-        42%{color: rgb(9, 82, 9)}
-        56%{color: rgb(14, 107, 14)}
-        70%{color: rgb(16, 16, 94)}
-        85%{color: rgb(85, 19, 85)}
+        0%{color: rgb(155, 4, 4)}
+        14%{color:  rgb(168, 110, 2)}
+        28%{color: rgb(175, 175, 6)}
+        42%{color: rgb(1, 136, 1)}
+        56%{color: rgb(9, 128, 9)}
+        70%{color: rgb(8, 8, 128)}
+        85%{color: rgb(112, 4, 112)}
     
     }
+
+ 
