@@ -29,7 +29,7 @@ h1:hover{
     /* box-shadow: 40px 10px limegreen; */
 
     box-shadow: 20px 20px 20px rgb(140, 245, 2);
-    transition: background 2s, transform 5s 0.5s ease-out ;
+    transition: background 2s, transform 3s 0.2s ease-in ;
     cursor: alias;
     
 
@@ -40,6 +40,7 @@ h1:hover{
     margin-left: 10%;
     margin-right:10%;
 }
+
 
 h2{
     font-family: 'Acme', sans-serif;
@@ -64,13 +65,18 @@ h2{
 color: black;
 
 }
-
+*/
 .contactMe:hover p{
 
-    font-size: 10px;
-    color: white;
+    animation: rainbow 3s infinite both;
 
-} */
+} 
+.contactMe:hover a{
+
+    animation: rainbow 3s infinite both;
+
+} 
+
 
 h2:hover{
     animation: rainbow 5s infinite both;
@@ -103,6 +109,7 @@ img{
     margin-top: 20px;
     padding: 2px;
     width: 60%;
+    background-color: white;
     border: 2px solid #fafcf5;
     border-radius: 10px;
 }
