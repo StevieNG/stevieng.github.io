@@ -9,6 +9,7 @@ box-sizing: border-box;
 
 html body {
     background-color: rgba(0,0,0,1.00);
+    padding-top: 60px;
 
 }
 h1{
